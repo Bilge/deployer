@@ -76,8 +76,8 @@ $autoload = [
 ];
 
 $includes = [
-    dirname($deployFile) . '/vendor/deployer/deployer',
-    __DIR__ . '/../../../deployer/deployer',
+    dirname($deployFile) . '/vendor/bilge/deployer',
+    __DIR__ . '/../../../bilge/deployer',
     __DIR__ . '/../'
 ];
 
